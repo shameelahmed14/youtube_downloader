@@ -1,0 +1,58 @@
+{% load static %}
+
+<html>
+<head>
+  <link href="{% static 'styles.css' %}" rel="stylesheet">
+  <link href="{% static 'style2.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<section>
+            <form action="/downloadVideo/" method="post" >
+                {% csrf_token %}
+               <br><br><br> <br><br><br><br><br><br> <br><br><br>  <center><h1>ENTER THE YOUTUBE LINK TO DOWNLOAD</h1></center>
+                  <div class="searchBox">
+
+            <input class="searchInput"type="text" name="link" placeholder="Search">
+            <button class="searchButton" >
+                <i class="fa fa-search">
+                </i>
+            </button></div>
+            </form>
+</section>
+<br><br><br> <br><br><br><br>
+ <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+<!--      <div class="copyright">-->
+<!--        &copy; Copyright <strong><span>shameelahmed</span></strong>. All Rights Reserved-->
+<!--      </div>-->
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
+        Designed by <a href="https://www.linkedin.com/in/shameel-ahmed/">Shameel Ahmed</a>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+</body>
+</html>

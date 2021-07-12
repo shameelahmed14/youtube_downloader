@@ -18,6 +18,7 @@ PyQRCode==1.2.1
 Pyrebase==3.0.27
 python-firebase==1.2
 python-youtube==0.8.1
+pytube==10.8.5
 pytz==2018.7
 qrcode==6.1
 regex==2021.4.4
